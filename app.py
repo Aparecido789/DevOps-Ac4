@@ -10,13 +10,13 @@ def fibonacci():
    anterior = 0
    limite = 50
    found = 0
-   resposta = "0-"
+   resposta = "0 -"
    while (found < limite):
        tmp = proximo
        proximo = proximo + anterior
        anterior = tmp
        found=found+1
-       resposta+= str(proximo) + " -"
+       resposta+= str(proximo) + " - "
 
 
    return resposta
